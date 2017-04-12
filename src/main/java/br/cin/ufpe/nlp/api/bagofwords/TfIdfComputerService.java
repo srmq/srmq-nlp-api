@@ -5,4 +5,5 @@ import java.nio.file.Path;
 
 public interface TfIdfComputerService {
 	public TfIdfInfo computeTfIdfRecursively(Path path) throws IOException;
+	public TfIdfInfo computeTfIdfRecursively(Path path, boolean useSimpleTokenizer) throws IOException;
 }

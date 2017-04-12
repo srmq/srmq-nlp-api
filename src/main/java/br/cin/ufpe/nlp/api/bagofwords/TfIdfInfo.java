@@ -20,5 +20,8 @@ public interface TfIdfInfo {
      */
     String wordAtIndex(int index);
     
+    @Deprecated
+    public Collection<Long> getIndices();
+    
     
 }
